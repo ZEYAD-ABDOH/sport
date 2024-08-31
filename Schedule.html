@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--start links Bootstrao5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--end links Bootstrao5 -->
+    <!-- start include   Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- end include   Awesome -->
+    <!-- start include My A css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- end include My A css file -->
+    <title>Schedule</title>
+  </head>
+  <body>
+    <!-- Header nav -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a href="index.html" class="d-flex justify-content-center align-items-center">
+          <img src="imges/logo.png" alt="logo" width="180px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-active me-auto mb-2 mb-lg-0">
+            <li class="">
+              <a
+                class="nav-link text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="">
+              <a class="nav-link text-white" href="news.html">News</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white" href="matchlist.html">Match</a>
+            </li>
+            <li class="">
+              <a class="nav-link text-white" href="stats.html">Stats</a>
+            </li>
+            <li class="nav-link dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="analysis.html">Analysis</a>
+                </li>
+                <li><a class="dropdown-item" href="Teams.html">Team</a></li>
+                <li>
+                  <a class="dropdown-item" href="stories.html">stories</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="TransfrePlayers.html">
+                    Transfre Players</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#FansCulture">Fans Culture</a>
+                </li>
+              </ul>
+            </li>
+            <li class="">
+              <a class="nav-link text-white" href="ContactUs.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end Header nav -->
+    <!-- start teamsdetails -->
+    <div class="teamsdetails">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center gap-2 mt-1">
+          <div class="">
+            <span>
+              <img
+                src="imges/ATL-Logo.png"
+                class="img-fluid"
+                width="100px"
+                alt="ATL-Logo"
+            /></span>
+          </div>
+          <div class="mb-2">
+            <h3 class="display-4 fw-bold text-white">Atlanta United</h3>
+            <a href="https://atlutd.com/" class="text-white fw-bold">
+              View Official Site</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end teamsdetails -->
+    <!-- start teamsdetails-title -->
+    <!--   -->
+
+    <!-- end teamsdetails-title -->
+    <div class="teamsdetails-contents bg-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-8 mt-2 border-end border-1">
+            <div class="teamsdetails-title bg-white">
+              <div class="container-fluid">
+                <h1
+                  class="pb-1 text-dark fw-bold"
+                  style="border-bottom: 3px solid #9d2235"
+                >
+                  Schedule
+                </h1>
+              </div>
+            </div>
+            <div id="newsInPage" class="row">
+              <div class="col-lg-12 mb-2">
+                <div class="header-content">
+                  <div class="d-md-flex d-sm-block">
+                    <div>
+                      <div
+                        class="p-2"
+                        role="group"
+                        aria-label="Date selector"
+                        tabindex="0"
+                      >
+                        <button
+                          value=""
+                          aria-label="Previous results"
+                          class="p-2 border-0 shadow shadow-sm bg-white"
+                        >
+                          <div role="img" class="">
+                            <span
+                              ><i class="fa-solid fa-angle-left fw-bold"></i
+                            ></span>
+                          </div></button
+                        ><button
+                          class="border-0 shadow shadow-sm bg-white fw-bold p-2"
+                        >
+                          2024
+                        </button>
+                        <button
+                          class="border-0 p-2 shadow shadow-sm fw-bold bg-white"
+                          value="next"
+                          aria-label="Next results"
+                        >
+                          <div role="img" class="">
+                            <span
+                              ><i class="fa-solid fa-angle-right fw-bold"></i
+                            ></span>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                    <div>
+                      <select
+                        class="form-select fw-bold m-2 p-2 shadow shadow-sm border"
+                        aria-label="Default select example"
+                        style="width: 190px"
+                      >
+                        <option class="  " value="all-competitions">
+                          All Competitions
+                        </option>
+                        <option class="  " value="mls-regular-season">
+                          Regular Season
+                        </option>
+                        <option class="  " value="mls-cup-playoffs">
+                          MLS Cup Playoffs
+                        </option>
+                        <option class="  " value="mls-all-star-game">
+                          All-Star Game
+                        </option>
+                        <option class="  " value="copa-america">
+                          Copa America
+                        </option>
+                        <option class="  " value="leagues-cup">
+                          Leagues Cup
+                        </option>
+                        <option class="  " value="u-s-open-cup">
+                          U.S. Open Cup
+                        </option>
+                        <option class="  " value="canadian-championship">
+                          Canadian Champ
+                        </option>
+                        <option class="  " value="friendly">Friendly</option>
+                        <option class="  " value="fifa-world-cup">
+                          World Cup
+                        </option>
+                        <option class="  " value="concacaf-champions-league">
+                          CCC
+                        </option>
+                        <option class="  " value="gold-cup">Gold Cup</option>
+                        <option class="  " value="campeones-cup">
+                          Campeones Cup
+                        </option>
+                        <option
+                          class="  "
+                          value="concacaf-world-cup-qualifiers"
+                        >
+                          World Cup Qualifiers
+                        </option>
+                        <option class="  " value="concacaf-nations-league">
+                          Nations League
+                        </option>
+                      </select>
+                    </div>
+                    <div>
+                      <select
+                        class="form-select fw-bold shadow shadow-sm m-2 p-2 border"
+                        aria-label="Default select example"
+                        style="width: 96px"
+                      >
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="11091"
+                        >
+                          Atlanta
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="15296"
+                        >
+                          Austin
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="16629"
+                        >
+                          Charlotte
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1207"
+                        >
+                          Chicago
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="11504"
+                        >
+                          Cincinnati
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="436"
+                        >
+                          Colorado
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="454"
+                        >
+                          Columbus
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1903"
+                        >
+                          Dallas
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1326"
+                        >
+                          D.C.
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1897"
+                        >
+                          Houston
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="421"
+                        >
+                          Kansas City
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1230"
+                        >
+                          LA
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="11690"
+                        >
+                          LAFC
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="14880"
+                        >
+                          Miami
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="6977"
+                        >
+                          Minnesota
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1616"
+                        >
+                          Montréal
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="15154"
+                        >
+                          Nashville
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="928"
+                        >
+                          New England
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="399"
+                        >
+                          New York
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="9668"
+                        >
+                          New York City
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="6900"
+                        >
+                          Orlando
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="5513"
+                        >
+                          Philadelphia
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1581"
+                        >
+                          Portland
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1899"
+                        >
+                          Salt Lake
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1131"
+                        >
+                          San Jose
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="3500"
+                        >
+                          Seattle
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="17012"
+                        >
+                          St. Louis
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="2077"
+                        >
+                          Toronto
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="1708"
+                        >
+                          Vancouver
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="597"
+                        >
+                          Canada
+                        </option>
+                        <option
+                          class="mls-o-buttons__dropdown-item"
+                          value="596"
+                        >
+                          United States
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div class="contentsSched-header">
+                    <div
+                      class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-center gap-5"
+                      >
+                        <div class="fw-bold p-2">Final</div>
+                        <div
+                          class="d-flex justify-content-center align-items-center gap-2"
+                        >
+                          <div
+                            class="d-flex align-items-center justify-content-lg-between"
+                          >
+                            <div class="">
+                              <span class="text-dark fw-bold">Columbus</span>
+                            </div>
+                            <picture
+                              ><img
+                                class="img-fluid"
+                                width="50rem"
+                                alt="CLB-Logo"
+                                role="presentation"
+                                src="imges/CLB-Logo-.png"
+                            /></picture>
+                          </div>
+
+                          <div class="">
+                            <span
+                              class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                              >1</span
+                            ><span
+                              class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                            ></span
+                            ><span
+                              class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                              >0</span
+                            >
+                          </div>
+                          <div
+                            class="d-flex align-items-center justify-content-around"
+                          >
+                            <picture
+                              ><img
+                                class="img-fluid"
+                                width="50rem"
+                                alt="ATL-Logo"
+                                role="presentation"
+                                src="imges/ATL-Logo.png"
+                            /></picture>
+                            <div class="">
+                              <span class="text-muted fw-bold">Atlanta</span>
+                            </div>
+                          </div>
+                          <div class=""></div>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                      >
+                        <div>
+                          <div class="content-su">
+                            <p class="text-muted fw-bold mb-0">
+                              MLS Regular Season
+                            </p>
+                            <p>
+                              <small class="fw-bold"
+                                >Mercedes-Benz Stadium
+                              </small>
+                            </p>
+                          </div>
+                        </div>
+                        <div>
+                          <span class="fw-bold text-muted"> Highlights</span>
+                          <span class=""
+                            ><i class="fa-solid fa-tv pe-1"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="">
+                  <div class="mt-1 p-2">
+                    <div class="">
+                      <span class="display-5 fs-3 fw-bold">February 2024</span>
+                    </div>
+                  </div>
+                  <div
+                    class="contentsSched d-md-flex d-sm-block justify-content-sm-center justify-content-md-between"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center gap-5"
+                    >
+                      <div class="fw-bold p-2">Final</div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-lg-between"
+                        >
+                          <div class="">
+                            <span class="text-dark fw-bold">Columbus</span>
+                          </div>
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="CLB-Logo"
+                              role="presentation"
+                              src="imges/CLB-Logo-.png"
+                          /></picture>
+                        </div>
+
+                        <div class="">
+                          <span
+                            class="bg-info fw-bold text-white fs-4 text-center ps-1 pe-2"
+                            >1</span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 border-end border-3 border-dark"
+                          ></span
+                          ><span
+                            class="bg-info fw-bold text-white fs-4 pe-1 ps-2"
+                            >0</span
+                          >
+                        </div>
+                        <div
+                          class="d-flex align-items-center justify-content-around"
+                        >
+                          <picture
+                            ><img
+                              class="img-fluid"
+                              width="50rem"
+                              alt="ATL-Logo"
+                              role="presentation"
+                              src="imges/ATL-Logo.png"
+                          /></picture>
+                          <div class="">
+                            <span class="text-muted fw-bold">Atlanta</span>
+                          </div>
+                        </div>
+                        <div class=""></div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center mt-1 gap-5"
+                    >
+                      <div>
+                        <div class="content-su">
+                          <p class="text-muted fw-bold mb-0">
+                            MLS Regular Season
+                          </p>
+                          <p>
+                            <small class="fw-bold"
+                              >Mercedes-Benz Stadium
+                            </small>
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="fw-bold text-muted"> Highlights</span>
+                        <span class=""
+                          ><i class="fa-solid fa-tv pe-1"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="Stats"
+            class="col-sm-12 col-md-12 d-md-block col-lg-4 d-sm-block gap-md-2 mb-sm-1 justify-content-sm-end d-md-flex justify-content-md-around d-lg-block col-lg-4 mt-3"
+          >
+            <div class="card mb-sm-2 text-sm-center text-md-start">
+              <img
+                src="imges/ttzyvn6rmmha4n0xdmkv.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title display-6 fw-bold">Club Tickets</h5>
+                <p class="card-text fw-bold lh-sm">
+                  Tickets are now on sale! find great season and get to a game
+                  this season.
+                </p>
+                <a href="#" class="btn btn-danger fw-lighter fw-bold"
+                  >Get Tickets</a
+                >
+              </div>
+            </div>
+            <div id="Schedule" class="card text-sm-center text-md-start">
+              <img
+                src="imges/ttzyvn6rmmha4n0xdmkv.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title display-6 fw-bold">Club Tickets</h5>
+                <p class="card-text fw-bold lh-sm">
+                  Tickets are now on sale! find great season and get to a game
+                  this season.
+                </p>
+                <a href="#" class="btn btn-danger fw-lighter fw-bold"
+                  >Get Tickets</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- start footer -->
+    <div class="footer">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <h5 class="pb-1 border-bottom border-3 border-white">
+                Caregories
+              </h5>
+              <div class="d-flex">
+                <ul class="nav flex-column">
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Home</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="nav-item d-flex align-items-centermb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Pricing</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">FAQs</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">About</a>
+                  </li>
+                </ul>
+                <ul class="nav ps-5 flex-column">
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Home</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="nav-item d-flex align-items-centermb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Pricing</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">FAQs</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">About</a>
+                  </li>
+                </ul>
+                <ul class="nav ps-5 flex-column">
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Home</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white"
+                      >Features</a
+                    >
+                  </li>
+                  <li class="nav-item d-flex align-items-centermb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">Pricing</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">FAQs</a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <i class="fa-brands fa-instagram"> </i>
+                    <a href="#" class="ps-1 nav-link p-0 text-white">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-md-4 ps-3">
+              <h5 class="pb-1 border-bottom border-3 border-white">
+                The us Soccer
+              </h5>
+              <div class="d-flex">
+                <ul class="nav flex-column">
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <p class="text-white text-start pt-2 ps-2">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Numquam, nihil.
+                    </p>
+                  </li>
+                  <li class="nav-item d-flex align-items-center mb-2">
+                    <p class="text-white text-start pt-2 ps-2">
+                      Email:Soccer@gmali.com
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <h5 class="pb-1 border-bottom border-3 border-white">
+                Content us
+              </h5>
+
+              <ul
+                class="navbar-nav flex-row justify-content-around align-items-center me-auto mb-2 mb-lg-0"
+              >
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fa-brands fa-facebook-f text-white"></i>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fa-brands fa-twitter text-white"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fa-brands fa-instagram text-white"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">
+                    <i class="fa-brands fa-youtube text-white"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <div class="footer-end position-relative">
+        <div class="container">
+          <div class="footer-end d-flex justify-content-center py-2 border-top">
+            <p class="text-center">
+              © 2024 ALRAJIHI, Inc. All rights reserved.
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0">
+ <i class="fa-solid fa-arrow-up bg-white p-3 h4 rounded-pill"></i>            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end footer -->
+    <!--add js Bootstrao5 -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
